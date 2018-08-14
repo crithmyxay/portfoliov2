@@ -1,0 +1,96 @@
+.indented {
+  padding-left: 25pt;
+}
+
+.navbar {
+  border-bottom: #9e2234 solid 4px;
+}
+
+.nav-logo {
+  height: 40px;
+}
+
+.backdrop {
+  height: 100vh;
+  max-width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.backdrop-image {
+  height: 100%;
+  width: 100%;
+}
+
+.typewriter h1 {
+  color: #fff;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-header {
+  padding-top: 5%;
+}
+
+.bar {
+  margin-bottom: 5%;
+  background-color: black;
+  height: 3px;
+  width: 20%;
+}
+
+.row {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+
+.project-container {
+  background-color: lightgray;
+}
+
+.svgcolor-lightgray{
+  background-color: lightgray;
+}
+
+.card {
+  align-items: center;
+  max-width: 350px;
+}
+
+.card-image {
+  width: 300px;
+  height: auto;
+  max-height: 300px;
+  max-width: 300px;
+}
+
+.project-link {
+  color: white;
+}
+
+.self {
+  width: 40vw;
+  max-width: 500px;
+  min-width: 300px;
+}
+
+i {
+  font-size: 5.8rem;
+  color: #9e2234;
+}
+
+.icon-row {
+  width: 50vw;
+}
